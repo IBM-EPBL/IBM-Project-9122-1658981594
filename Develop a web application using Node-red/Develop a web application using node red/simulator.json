@@ -1,0 +1,23 @@
+{
+  "deviceTypes": [
+    {
+      "id": "GPS_Tracking",
+      "running": true,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": 20,
+            "every": "minute"
+          },
+          "json": "{\n  \"randomNumber\": random(0, 100)\n}\n"
+        }
+      ],
+      "devices": [],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-2oab6l-ikvd41x7jy"
+}
